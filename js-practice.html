@@ -28,14 +28,27 @@
     var zDivide = x / y;
     console.log (zDivide)
 
-console.log("Working with strings:");
+    console.log("Working with strings:");
 
-var firstName = 'Carlos';
-var middleName = 'Enrique';
-var lastName = 'Garcia';
+    var firstName = 'Carlos';
+    var middleName = 'Enrique';
+    var lastName = 'Garcia';
 
-var fullName = firstName + " " + middleName + " " + lastName
-console.log(fullName)
+    var fullName = firstName + " " + middleName + " " + lastName
+    console.log(fullName)
+
+    console.log('Using Functions:');
+
+    //makes a number into it's square
+    function makeSquare(theNumb) {
+        var squared = theNumb * theNumb;
+        return squared;
+    }
+
+    var try01 = makeSquare(3);
+    console.log (try01);
+    console.log (makeSquare(7));
+    console.log (makeSquare(8));
 
     </script>
 </body>
